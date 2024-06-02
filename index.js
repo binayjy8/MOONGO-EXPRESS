@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const path = require("path");
+
+app.use("views", path.join(__dirname, "views"));
+app.use("view engine", "ejs");
 
 main()
 .then(()=>{
