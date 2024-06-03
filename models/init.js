@@ -29,6 +29,12 @@ let allChats = [
         to : "Priya",
         msg : "When will be you get married",
         created_at : new Date(),
+    },
+    {
+        from : "Manash",
+        to : "Anjali",
+        msg : "Where are you from",
+        created_at : new Date(),
     }
 ]
 
