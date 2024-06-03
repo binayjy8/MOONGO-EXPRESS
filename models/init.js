@@ -39,4 +39,4 @@ let allChats = [
 ];
 
 
-chat.insertMany(allChats);
+Chat.insertMany(allChats);
