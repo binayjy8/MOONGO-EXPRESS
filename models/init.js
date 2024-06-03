@@ -36,7 +36,7 @@ let allChats = [
         msg : "Where are you from",
         created_at : new Date(),
     },
-];
+  ];
 
 
 Chat.insertMany(allChats);
