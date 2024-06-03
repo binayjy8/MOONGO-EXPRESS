@@ -17,6 +17,18 @@ let allChats = [
         to : "Lipsa",
         msg : "Give me your exam notes",
         created_at : new Date(),
+    },
+    {
+        from : "Rahul",
+        to : "Chinmay",
+        msg : "What are you doing",
+        created_at : new Date(),
+    },
+    {
+        from : "Dev",
+        to : "Priya",
+        msg : "When will be you get married",
+        created_at : new Date(),
     }
 ]
 
