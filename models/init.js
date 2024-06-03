@@ -35,11 +35,8 @@ let allChats = [
         to : "Anjali",
         msg : "Where are you from",
         created_at : new Date(),
-    }
-]
+    },
+];
 
-chat1.save().then((res) => {
-    console.log(res);
-}).catch ((err) => {
-    console.log(err);
-});
+
+chat.insertMany(allChats);
