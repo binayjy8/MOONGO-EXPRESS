@@ -35,7 +35,7 @@ chat1.save().then((res) => {
 app.get("/chats", async (req, res) => {
     let chats = await Chat.find();
     console.log(chats);
-    res.send("working");
+    res.render("index.ejs");
 });
 
 app.get("/", (req, res) => {
