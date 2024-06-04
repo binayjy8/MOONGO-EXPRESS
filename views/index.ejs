@@ -7,14 +7,17 @@
 </head>
 <body>
    <h3>All Chats</h3>
+
+   <% for(let chat of chats) { %>
+    <div class="chat">
+        <p><%= chat.frrom %></p>
+        <div class="msg">
+            <p><%= chat.msg %></p>
+        </div>
+        <p>Received by <%= chat.to %></p>
+    </div>
+ <% } %>
 </body>
 </html>
 
 
-for(let chat of chats) {
-    <div>
-        <p><%= chat.frrom %></p>
-        <p><%= chat.msg %></p>
-        <p>Received by <%= chat.to %></p>
-    </div>
-}
