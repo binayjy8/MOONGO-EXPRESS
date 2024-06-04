@@ -10,11 +10,12 @@
 
    <% for(let chat of chats) { %>
     <div class="chat">
-        <p><%= chat.frrom %></p>
+        <p>From :<%= chat.from %></p>
         <div class="msg">
             <p><%= chat.msg %></p>
         </div>
         <p>Received by <%= chat.to %></p>
+        <hr>
     </div>
  <% } %>
 </body>
