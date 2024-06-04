@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const chat = require("./models/chat.js");
+const Chat = require("./models/chat.js");
 
 main()
 .then(()=>{
