@@ -6,6 +6,12 @@
     <title>Edit your chat</title>
 </head>
 <body>
-    
+    <h3>Edit your chat : <%=chat._id%></h3>
+    <p>This chat was sent from <%=chat.from%> to <%=chat.to%></p>
+
+    <form>
+        <textarea name="msg"><%=chat.msg%></textarea>
+        <button>Edit</button>
+    </form>
 </body>
 </html>
