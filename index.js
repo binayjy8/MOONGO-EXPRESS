@@ -61,6 +61,12 @@ app.post("/chats", (req, res) => {
     res.redirect("/chats");
 });
 
+app.get("/chats/:id/edit", (req, res) => {
+    let {id} = req.params;
+    let chat = Chat.findById(id);
+    res.render("edit.ejs", {chat});
+});
+
 app.get("/", (req, res) => {
     res.send("root is working");
 });
