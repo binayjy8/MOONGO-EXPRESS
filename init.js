@@ -38,6 +38,10 @@ let allChats = [
         msg : "Where are you from",
         created_at : new Date(),
     },
+    {
+        from : "Diku",
+        to : "Kajol",
+    }
   ];
 
 
