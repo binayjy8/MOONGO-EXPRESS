@@ -41,7 +41,9 @@ let allChats = [
     {
         from : "Diku",
         to : "Kajol",
-    }
+        msg : "i'm a business man",
+        created_at : new Date(),
+    },
   ];
 
 
